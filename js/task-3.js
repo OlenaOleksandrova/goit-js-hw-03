@@ -1,31 +1,15 @@
 function filterArray(numbers, value) {
-    
-    // let results = [];
-    // console.log (results)
-    // for (const result of results) {
-    //     if (result.numbers > value); {
-        
-    //     }
-    // return results.numbers
-    // }
-    
-
-    // let results = [String(numbers), value];
-
 
     let result = [];
 
-    for (const number of numbers) {
-        console.log(number)
-    } {  
-        if (numbers > value) {
-           console.log (result);
+    for (let i of numbers) {
+    
+        if (i > value) {
+           result.push(i);
         }
-
     }
     return  result
 
-    
 }
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
